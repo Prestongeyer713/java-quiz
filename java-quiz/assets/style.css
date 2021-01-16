@@ -1,0 +1,59 @@
+body,html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background: radial-gradient(circle, black, rgb(42, 178, 231));
+    height: 100%;
+    width: 100%;
+}
+.game-box{
+    background: #125301;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0.,0,0,0.23);
+}
+.answer-item{
+    background: rgb(0, 0, 0);
+    width: 90%;
+    display: inline-block;
+    border-radius:12px;
+    padding: 7px;
+}
+#btn-start{
+    border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:#2cbad3;
+    font:bold 40px;
+	color:rgb(0, 0, 0);
+}
+
+#code-title{
+    text-align: right;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 400px){
+
+    body{
+       margin: 0;
+       width: 100%;
+       padding: 0;
+    }
+    #start-quiz{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #start-info h1{
+        font-size: 40px;
+    }
+    #start-info ul{
+        font-size: xx-large;
+    }
+    #start-btn{
+        width: 130px;
+        font-size: x-large;
+    }
+    .score-box{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
